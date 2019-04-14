@@ -4,6 +4,8 @@ import MessageList from '../MessageList';
 import NewMessage from '../NewMessage';
 import './index.css';
 
+const sweets = ['🍬', '🍭', '🍫', '🍰', '🍪', '🍩', '🍨', '🍮', '☕']
+
 class ChatComponent extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +14,7 @@ class ChatComponent extends Component {
         {
           author: 'RyuzakiBot',
           text: [
-            'Hey! I will answer your queries about chatbots CANDIES',
+            'Hey! I will answer your queries about chatbots ' + sweets[Math.floor(Math.random() * sweets.length)],
             'Feel free to clone me on GitHub to train me on something new.'
           ]
         }
