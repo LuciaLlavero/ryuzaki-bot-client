@@ -14,9 +14,7 @@ class NewMessage extends Component {
         }
       }>
         <input className="txt" type="text" id="message" />
-        <button className="btn" type="submit">
-          <img src="/images/paper-plane.svg" alt="Send" />
-        </button>
+        <button className="btn" type="submit">></button>
       </form>
     );
   }
