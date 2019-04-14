@@ -1,0 +1,12 @@
+.message {
+  padding: 6px;
+}
+
+.message > b {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.message p {
+  margin: 8px 0 0;
+}
