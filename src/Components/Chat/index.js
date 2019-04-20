@@ -14,7 +14,7 @@ class ChatComponent extends Component {
         {
           author: 'RyuzakiBot',
           text: [
-            'Hey! I will answer your queries about chatbots.' + sweets[Math.floor(Math.random() * sweets.length)],
+            'Hey! I will answer your queries about chatbots. ' + sweets[Math.floor(Math.random() * sweets.length)],
             'Feel free to clone me on GitHub to train me on something new.',
             <span>I got corpus from: <a target="_blank" href="https://en.wikipedia.org/wiki/Chatbot">https://en.wikipedia.org/wiki/Chatbot</a></span>
           ]
